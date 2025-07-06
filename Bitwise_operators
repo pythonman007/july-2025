@@ -2,7 +2,7 @@ Bitwise Operators
 1) And (&) 
   . All True - True 
   . One False - False   
-2) OR(||)
+2) OR(|)
   .One True - True 
   .All False - False 
 3) XOR(^)
