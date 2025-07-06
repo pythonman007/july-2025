@@ -1,5 +1,5 @@
 #using left shift operator
 class Solution:
-	def setKthBit(self, n, k):
+	def setKthBit(self, n, i):
 		# code here 
-		return (n | (1<<k)) 
+		return (n | (1<<i)) 
