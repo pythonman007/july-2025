@@ -1,0 +1,2 @@
+# clear ith bit 
+(n& ~(1<<k))   
