@@ -1,0 +1,2 @@
+# Remove last set bit 
+return (n&(n-1)) 
