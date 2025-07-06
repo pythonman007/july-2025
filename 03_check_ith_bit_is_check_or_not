@@ -1,14 +1,14 @@
 # using left shift operator     
 class Solution:
-    def checkKthBit(self, n, k):
+    def checkKthBit(self, n, i):
         # code here
-        if(n&(1<<k)!=0):
+        if(n&(1<<i)!=0):
             return True 
         return False 
 # using right shift operator
 class Solution:
-    def checkKthBit(self, n, k):
+    def checkKthBit(self, n, i):
         # code here
-        if((n>>k)&1 == 0):
+        if((n>>i)&1 == 0):
             return False 
         return True 
