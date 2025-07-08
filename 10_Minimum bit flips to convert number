@@ -1,0 +1,29 @@
+start = int(input()) 
+goal = int(input())
+ans = start^goal 
+result = bin(ans).count("1") 
+print(result)
+
+--------------------------------------------------------------
+
+start = int(input()) 
+goal = int(input())
+ans = start^goal 
+cnt = 0 
+for i in range(31):
+    if(ans&(1<<i)):
+        cnt+=1 
+print(cnt) 
+
+---------------------------------------------------------------
+
+start = int(input()) 
+goal = int(input())
+ans = start^goal
+cnt = 0 
+while(ans!=0):
+    rem = ans%2 
+    if(rem == 1):
+        cnt+=1 
+    ans = ans // 2 
+print(cnt)
